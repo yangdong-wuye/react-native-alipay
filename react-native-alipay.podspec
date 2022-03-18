@@ -34,9 +34,9 @@ Pod::Spec.new do |s|
   s.frameworks = "WebKit"
 
   s.dependency "React"
-  s.resource = 'AlipaySDK.bundle'
+  s.resource = 'ios/AlipaySDK.bundle'
   # s.source_files  = "AlipaySDKiOS/AlipaySDK.framework/**/*"
-  s.vendored_frameworks = 'AlipaySDK.framework'
+  s.vendored_frameworks = 'ios/AlipaySDK.framework'
   s.library = "c++", "z"
   # ...
   # s.dependency "..."
